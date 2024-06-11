@@ -1,0 +1,28 @@
+<!-- res/layout/dialog_additional_details.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Add fields for additional cow details here -->
+    <EditText
+        android:id="@+id/edit_cow_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cow Weight"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edit_cow_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cow Color"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn_save_additional_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Additional Details" />
+</LinearLayout>

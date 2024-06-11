@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "245375434703",
+    "project_id": "dairy-farm-f770b",
+    "storage_bucket": "dairy-farm-f770b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245375434703:android:3489c6391ab6c1a2535cba",
+        "android_client_info": {
+          "package_name": "com.bhapkar.dairyfarm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcqGN1sm5tdnmW7-9YQZGEsRO7zjuS4gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

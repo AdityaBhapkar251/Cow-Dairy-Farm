@@ -1,0 +1,27 @@
+<!-- res/layout/dialog_add_cow.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/cow_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cow ID"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/cow_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cow Name"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn_add_cow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Cow" />
+</LinearLayout>
