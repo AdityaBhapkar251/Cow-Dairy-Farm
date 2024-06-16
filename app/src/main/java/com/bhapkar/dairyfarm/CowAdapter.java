@@ -45,6 +45,11 @@ public class CowAdapter extends RecyclerView.Adapter<CowAdapter.CowViewHolder> {
         return cowList.size();
     }
 
+    public void setCows(List<Cow> cows) {
+        this.cowList = cows;
+        notifyDataSetChanged();
+    }
+
     public static class CowViewHolder extends RecyclerView.ViewHolder {
         TextView cowName;
 

@@ -9,6 +9,8 @@
         android:id="@+id/cow_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Cow Name"
+
         android:textSize="18sp"
         android:textColor="@android:color/black" />
 </LinearLayout>

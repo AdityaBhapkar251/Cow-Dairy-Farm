@@ -1,29 +1,66 @@
 package com.bhapkar.dairyfarm.data.model;
 
-public class Cow {
-    private String id;
-    private String name;
-    private String weight;
-    private String color;
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
 
-    public Cow(String id, String name) {
-        this.id = id;
+@Entity(tableName = "cow_table")
+public class Cow {
+
+    @PrimaryKey(autoGenerate = true)
+    private int id;
+
+    private String cowId;
+    private String name;
+    private String description;
+    private String imageUrl;
+
+    public Cow(String cowId, String name) {
+        this.cowId = cowId;
         this.name = name;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getCowId() {
+        return cowId;
+    }
+
+    public void setCowId(String cowId) {
+        this.cowId = cowId;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setWeight(String weight) {
-        this.weight = weight;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setColor(String color) {
-        this.color = color;
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public String getImageUri() {
+        return imageUrl;
+
     }
 }
