@@ -1,1 +1,2 @@
-# Cow-Dairy-Farm
+# Cow-Dairy-Farm<br>
+<p>                      The Dairy Farm Management App is designed to streamline the management of dairy farms by providing a convenient way to track and update cow details. Users can add, update, and view information about their cows, including names, descriptions, and images. <p></p>The app supports offline functionality, storing data locally when the device is offline, and automatically syncing with a cloud database once the device is back online. This ensures that all data is consistently backed up and accessible from multiple devices, enhancing the efficiency and reliability of dairy farm management.
